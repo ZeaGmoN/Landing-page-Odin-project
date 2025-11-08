@@ -8,14 +8,23 @@
     background-color: #1F2937;
 }
 
-.headertop {
+.HeaderTop {
     display: flex;
     justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+}
+
+.Logo {
+    font-size: 24px;
+    color: #F9FAF8
 }
 
 ul {
     display: flex;
     list-style: none;
+    gap: 10px
 }
 
 a {
@@ -23,3 +32,49 @@ a {
     color: white;
 }
 
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.titlesub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.HeaderBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    gap: 50px;
+}
+
+.hbleft {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.hbright {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    width: fit-content;
+}
+
+img {
+    max-height: 250px;
+    object-fit: cover;
+}
