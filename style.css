@@ -118,20 +118,54 @@ img {
 
 .section2 {
     background-color: #E5E7EB;
-    padding: 200px;
+    padding: 50px 200px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    color: #1F2937
+    color: #1F2937;
+    width: 700px;
+    margin-bottom: 10px;
 }
 
 .quote-author {
     font-weight: bold;
     color: #1F2937;
-    align-self: flex-end;
+    width: 700px;
+    text-align: right;
+}
+
+.section3 {
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 24px;
+    border-radius: 8px;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 8px 32px;
+    font-weight: bold;
+    white-space: nowrap;
 }
